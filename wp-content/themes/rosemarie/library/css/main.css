@@ -1,0 +1,300 @@
+/* CSS MENU */
+
+#menu-item-27 {
+    z-index:9999;
+    display: none;
+}
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+}
+
+.transparent {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+ul#menu-menu li a {
+    color: white !important;
+}
+
+span.glyphicon {
+    display: none !important;
+}
+
+a.carousel-control {
+    background-image: none !important;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.entrees {
+    text-align: center;
+}
+
+.plats {
+    text-align: center;
+}
+
+.desserts {
+    text-align: center;
+}
+
+/* CSS THOMAS */
+
+/* CSS QUI SOMMES-NOUS */
+
+#histoire {
+    background-image: url("../../images/corse.jpg");
+    background-position: top;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    position: relative;
+}
+
+.histoire {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.texte-histoire {
+    color: black;
+    width: 100%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* FIN CSS QUI SOMMES-NOUS */
+
+/* EFFET HOVER CARTES */
+
+#cartes {
+    text-align: center;
+}
+
+#cartes ul li {
+    display: inline-block;
+}
+
+.da-thumbs {
+    list-style: none;
+    position: relative;
+    margin: 20px auto;
+    padding: 0;
+}
+.da-thumbs li {
+    display: inline-block;
+    margin: 5px;
+    background: #fff;
+    padding: 8px;
+    position: relative;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.da-thumbs li a,
+.da-thumbs li a img {
+    display: block;
+    position: relative;
+}
+.da-thumbs li a {
+    overflow: hidden;
+}
+.da-thumbs li a div {
+    position: absolute;
+    background: #333;
+    background: rgba(75,75,75,0.7);
+    width: 100%;
+    height: 100%;
+}
+.da-thumbs li a div span {
+    display: block;
+    padding: 10px 0;
+    margin: 40px 20px 20px 20px;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: rgba(255,255,255,0.9);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    box-shadow: 0 1px 0 rgba(0,0,0,0.1), 0 -10px 0 rgba(255,255,255,0.3);
+}
+
+/* FIN EFFET HOVER CARTES */
+
+#sb_instagram {
+    display: inline-block;
+}
+
+#TA_selfserveprop797 {
+    display: inline-block;
+}
+/* FIN CSS THOMAS*/
+
+
+
+/* CSS ROMAIN */
+
+/* Slidorion Stylesheet */
+.slidorion {
+    position: relative;
+    width: 870px;			/* Set to slidorion width. Is equal to .slider + .accordion width */
+    height: 400px;			/* Set to slidorion height. Is equal to .slider and .accordion height */
+    left: 50%;
+    padding: 10px;
+    margin-left: -436px;
+}
+
+.slider {
+    width: 68%;
+    height: 70%;
+    border: solid 10px burlywood ;
+    border-bottom: 20px burlywood solid;
+    top: 15%;
+    position: relative;
+    float: left;
+    left: -50px;
+    z-index: 1;
+    overflow: hidden;		/* Hides the animations */
+}
+
+.slider .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.accordion {
+    width: 32%;
+    height: 100%;
+    font-family: Verdana;
+    box-shadow: -3px 0px 3px -1px rgba(51,51,51,0.3);
+    position: relative;
+    z-index:1;
+    overflow: hidden;
+    float: left;
+    background-image: url("../images/");
+}
+
+.accordion .header {
+    display: none;
+}
+
+.accordion .header:first-child {
+    border-top: none;
+}
+
+.accordion .header:hover {
+    background: transparent;
+    color: transparent;
+    cursor: pointer;
+}
+
+.accordion .header.active {
+    color: #000000;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    width: 85%;
+}
+
+.accordion .content {
+    height: 258px;			/* This height needs to be changed as it depends on the accordion height and number of tabs */
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0;
+    padding: 16px;
+    border: none;
+
+    overflow:auto;
+}
+
+.accordion .content p {
+    margin-bottom: 10px;
+    color: #000000;
+    width: 80%;
+}
+
+.slidorion .slidorion-nav {
+    position: absolute;
+    top: 200px;
+    width: 16px;
+    height: 27px;
+    z-index: 9999;
+    background: url("../img/arrows.png") 0 0 no-repeat;
+    cursor: pointer;
+}
+
+.slidorion .slidorion-nav-left {
+    left: 30px;
+}
+
+.slidorion .slidorion-nav-right {
+    right: 310px;
+    background-position: -16px 0;
+}
+.slider img{
+    width: 100%;
+}
+
+/* FENETRE DEROULANTE EVENEMENT */
+
+.sous-evenements h4{
+    text-align: center;
+}
+.sous-evenements a {
+    width: 100%;
+    display: block;
+}
+
+/* FENETRE DEROULANTE EQUIPE */
+
+#equipe img{
+    width:80%;
+    margin: 0 10%;
+}
+#equipe{text-align: center}
+
+/* FIN CSS ROMAIN */
+
+#panel-desserts {
+    display: none;
+}
+#panel-boissons {
+    display: none;
+}
+#panel-entrees {
+    display: none;
+}
+#panel-plats {
+    display: none;
+}
