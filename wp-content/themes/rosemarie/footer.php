@@ -28,7 +28,7 @@
             $(window).scroll(function(){
                 if ($(this).scrollTop() > 200) {
                     $('#menu-item-27').fadeIn(500);
-                    $('.transparent').css('background-color', 'black');
+                    $('.transparent').delay(750).css('background-color', 'black');
                 } else {
                     $('#menu-item-27').fadeOut(500);
                     $('.transparent').css('background-color', 'transparent');
