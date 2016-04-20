@@ -18,20 +18,34 @@
         $('#slidorion').slidorion({
             speed: 1000,
             interval: 4000,
-            effect: 'slideLeft'
+            effect: 'overLeft'
         });
     });
 </script>
 <script type="text/javascript">
     (function($) {
         $(document).ready(function(){
+            var state = 0;
             $(window).scroll(function(){
                 if ($(this).scrollTop() > 200) {
-                    $('#menu-item-27').fadeIn(500);
-                    $('.transparent').delay(750).css('background-color', 'black');
+                    if (state == 0){
+                        $('#menu-item-27').css("display","inline-block").fadeIn(2000);
+                        $('#menu-item-27').css("margin","0 18%").fadeIn(2000);
+                        //$('.transparent').animate({backgroundColor: "black"});
+                        $('.transparent').css("background-color", 'black')
+                        console.log("animate")
+                        state = 1;
+                    }
                 } else {
-                    $('#menu-item-27').fadeOut(500);
-                    $('.transparent').css('background-color', 'transparent');
+                    if (state == 1){
+                        $('#menu-item-27').fadeOut(500);
+                        $('#menu-item-27').css("margin","0 0").fadeOut(2000);
+
+                        $('.transparent').css('background-color', 'transparent');
+                        console.log("transparent")
+                        state = 0;
+                    }
+
                 }
             });
         });

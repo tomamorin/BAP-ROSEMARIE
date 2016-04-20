@@ -237,7 +237,7 @@
             </div>
             <div class="slider">
                 <div class="slide"><img src="<?php bloginfo('template_directory') ?>/images/drapeau_corse.jpg" /></div>
-                <div class="slide"><img src="<?php bloginfo('template_directory') ?>/images/drapeau_corse.jpg" /></div>
+                <div class="slide"><img src="<?php bloginfo('template_directory') ?>/images/corse.jpg" /></div>
                 <div class="slide"><img src="<?php bloginfo('template_directory') ?>/images/drapeau_corse.jpg" /></div>
             </div>
         </div>

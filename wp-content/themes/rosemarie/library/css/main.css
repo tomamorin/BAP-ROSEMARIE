@@ -11,9 +11,43 @@
     z-index: 3;
 }
 
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+}
+
+@media (min-width: 768px){
+    .navbar-nav>li {
+        float: none;
+        display: inline-block;
+    }
+}
+.center {
+    text-align: center;
+}
+.slider{
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+}
+
+#menu-item-27{
+    -webkit-transition: all 600ms ease;
+    -moz-transition: all 600ms ease;
+    -ms-transition: all 600ms ease;
+    -o-transition: all 600ms ease;
+    transition: all 600ms ease;
+
+}
 .transparent {
     background-color: transparent;
     border-color: transparent;
+    z-index: 16;
+    -webkit-transition: all 600ms ease;
+    -moz-transition: all 600ms ease;
+    -ms-transition: all 600ms ease;
+    -o-transition: all 600ms ease;
+    transition: all 600ms ease;
 }
 
 ul#menu-menu li a {
@@ -166,20 +200,18 @@ p.texte-histoire {
     position: relative;
     width: 870px;			/* Set to slidorion width. Is equal to .slider + .accordion width */
     height: 400px;			/* Set to slidorion height. Is equal to .slider and .accordion height */
-    left: 50%;
     padding: 10px;
-    margin-left: -436px;
 }
 
 .slider {
-    width: 68%;
+    width: 50%;
     height: 70%;
     border: solid 10px burlywood ;
     border-bottom: 20px burlywood solid;
     top: 15%;
     position: relative;
-    float: left;
-    left: -50px;
+    float: right;
+    left: 20%;
     z-index: 1;
     overflow: hidden;		/* Hides the animations */
 }
@@ -193,7 +225,7 @@ p.texte-histoire {
 }
 
 .accordion {
-    width: 32%;
+    width: 50%;
     height: 100%;
     font-family: Verdana;
     box-shadow: -3px 0px 3px -1px rgba(51,51,51,0.3);
