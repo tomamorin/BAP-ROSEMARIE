@@ -7,30 +7,60 @@
 <?php get_header(); ?>
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
-        <ol class="carousel-indicators">
+        <!--<ol class="carousel-indicators">
             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
             <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-        </ol>
+        </ol>-->
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img src="<?php bloginfo('template_directory') ?>/images/corse.jpg" alt="...">
+                <img src="<?php bloginfo('template_directory') ?>/images/Header_slider_photo1.png" alt="...">
                 <div class="carousel-caption">
-                    ...
                 </div>
             </div>
             <div class="item">
-                <img src="<?php bloginfo('template_directory') ?>/images/corse.jpg" alt="...">
+                <img src="<?php bloginfo('template_directory') ?>/images/Header_slider_photo2.png" alt="...">
                 <div class="carousel-caption">
-                    ...
                 </div>
             </div>
             <div class="item">
-                <img src="<?php bloginfo('template_directory') ?>/images/corse.jpg" alt="...">
+                <img src="<?php bloginfo('template_directory') ?>/images/Header_slider_photo3.png" alt="...">
                 <div class="carousel-caption">
-                    ...
                 </div>
+            </div>
+            <div class="item">
+                <img src="<?php bloginfo('template_directory') ?>/images/Header_slider_photo4.png" alt="...">
+                <div class="carousel-caption">
+                </div>
+            </div>
+            <div class="item">
+                <img src="<?php bloginfo('template_directory') ?>/images/Header_slider_photo5.png" alt="...">
+                <div class="carousel-caption">
+                </div>
+            </div>
+            <div class="item">
+                <img src="<?php bloginfo('template_directory') ?>/images/Header_slider_photo6.png" alt="...">
+                <div class="carousel-caption">
+                </div>
+            </div>
+            <div class="item">
+                <img src="<?php bloginfo('template_directory') ?>/images/Header_slider_photo7.png" alt="...">
+                <div class="carousel-caption">
+                </div>
+            </div>
+            <div class="item">
+                <img src="<?php bloginfo('template_directory') ?>/images/Header_slider_photo8.png" alt="...">
+                <div class="carousel-caption">
+                </div>
+            </div>
+        </div>
+        <div class="main-text hidden-xs">
+            <div class="col-md-12 text-center">
+                <img src="<?php bloginfo('template_directory') ?>/images/Logo.png" alt="...">
+                <h3>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </h3>
             </div>
         </div>
         <!-- Controls -->
@@ -43,33 +73,37 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
+
     <div id="cartes">
         <a name="carte">
-            <h2>Cartes</h2>
+            <div class="titre">
+                <img src="<?php bloginfo('template_directory') ?>/images/barre.png" alt="..." class="bordure-titre">
+                <h2>Suggestions</h2>
+            </div>
         </a>
         <ul>
             <li><a class="cible" href="#entrees">Entrées</a></li>
             <li><a class="cible" href="#plats">Plats</a></li>
             <li><a class="cible" href="#desserts">Desserts</a></li>
-            <li><a class="cible" href="#boissons">Boissons</a></li>
+            <!--<li><a class="cible" href="#boissons">Boissons</a></li>-->
         </ul>
         <div id="desserts" class="selection">
             <ul id="da-thumbs" class="da-thumbs">
                 <li>
                     <a href="#">
-                        <img src="<?php bloginfo('template_directory') ?>/images/desserts.jpg" alt="...">
+                        <img src="<?php bloginfo('template_directory') ?>/images/plat_1.png" alt="...">
                         <div><span>DESSERTS</span></div>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="<?php bloginfo('template_directory') ?>/images/desserts.jpg" alt="...">
+                        <img src="<?php bloginfo('template_directory') ?>/images/plat_1.png" alt="...">
                         <div><span>DESSERTS</span></div>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="<?php bloginfo('template_directory') ?>/images/desserts.jpg" alt="...">
+                        <img src="<?php bloginfo('template_directory') ?>/images/plat_1.png" alt="...">
                         <div><span>DESSERTS</span></div>
                     </a>
                 </li>
@@ -77,19 +111,19 @@
             <ul id="da-thumbs" class="da-thumbs">
                 <li>
                     <a href="#">
-                        <img src="<?php bloginfo('template_directory') ?>/images/desserts.jpg" alt="...">
+                        <img src="<?php bloginfo('template_directory') ?>/images/plat_1.png" alt="...">
                         <div><span>DESSERTS</span></div>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="<?php bloginfo('template_directory') ?>/images/desserts.jpg" alt="...">
+                        <img src="<?php bloginfo('template_directory') ?>/images/plat_1.png" alt="...">
                         <div><span>DESSERTS</span></div>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="<?php bloginfo('template_directory') ?>/images/desserts.jpg" alt="...">
+                        <img src="<?php bloginfo('template_directory') ?>/images/plat_1.png" alt="...">
                         <div><span>DESSERTS</span></div>
                     </a>
                 </li>
@@ -99,19 +133,19 @@
             <ul id="da-thumbs" class="da-thumbs">
                 <li>
                     <a href="#">
-                        <img src="<?php bloginfo('template_directory') ?>/images/boissons.jpg" alt="...">
+                        <img src="<?php bloginfo('template_directory') ?>/images/plat_2.png" alt="...">
                         <div><span>BOISSONS</span></div>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="<?php bloginfo('template_directory') ?>/images/boissons.jpg" alt="...">
+                        <img src="<?php bloginfo('template_directory') ?>/images/plat_2.png" alt="...">
                         <div><span>BOISSONS</span></div>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="<?php bloginfo('template_directory') ?>/images/boissons.jpg" alt="...">
+                        <img src="<?php bloginfo('template_directory') ?>/images/plat_2.png" alt="...">
                         <div><span>BOISSONS</span></div>
                     </a>
                 </li>
@@ -119,19 +153,19 @@
             <ul id="da-thumbs" class="da-thumbs">
                 <li>
                     <a href="#">
-                        <img src="<?php bloginfo('template_directory') ?>/images/boissons.jpg" alt="...">
+                        <img src="<?php bloginfo('template_directory') ?>/images/plat_2.png" alt="...">
                         <div><span>BOISSONS</span></div>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="<?php bloginfo('template_directory') ?>/images/boissons.jpg" alt="...">
+                        <img src="<?php bloginfo('template_directory') ?>/images/plat_2.png" alt="...">
                         <div><span>BOISSONS</span></div>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="<?php bloginfo('template_directory') ?>/images/boissons.jpg" alt="...">
+                        <img src="<?php bloginfo('template_directory') ?>/images/plat_2.png" alt="...">
                         <div><span>BOISSONS</span></div>
                     </a>
                 </li>
@@ -141,19 +175,19 @@
             <ul id="da-thumbs" class="da-thumbs">
                 <li>
                     <a href="#">
-                        <img src="<?php bloginfo('template_directory') ?>/images/entrees.jpg" alt="...">
+                        <img src="<?php bloginfo('template_directory') ?>/images/plat_3.png" alt="...">
                         <div><span>ENTREES</span></div>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="<?php bloginfo('template_directory') ?>/images/entrees.jpg" alt="...">
+                        <img src="<?php bloginfo('template_directory') ?>/images/plat_3.png" alt="...">
                         <div><span>ENTREES</span></div>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="<?php bloginfo('template_directory') ?>/images/entrees.jpg" alt="...">
+                        <img src="<?php bloginfo('template_directory') ?>/images/plat_3.png" alt="...">
                         <div><span>ENTREES</span></div>
                     </a>
                 </li>
@@ -161,19 +195,19 @@
             <ul id="da-thumbs" class="da-thumbs">
                 <li>
                     <a href="#">
-                        <img src="<?php bloginfo('template_directory') ?>/images/entrees.jpg" alt="...">
+                        <img src="<?php bloginfo('template_directory') ?>/images/plat_3.png" alt="...">
                         <div><span>ENTREES</span></div>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="<?php bloginfo('template_directory') ?>/images/entrees.jpg" alt="...">
+                        <img src="<?php bloginfo('template_directory') ?>/images/plat_3.png" alt="...">
                         <div><span>ENTREES</span></div>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="<?php bloginfo('template_directory') ?>/images/entrees.jpg" alt="...">
+                        <img src="<?php bloginfo('template_directory') ?>/images/plat_3.png" alt="...">
                         <div><span>ENTREES</span></div>
                     </a>
                 </li>
@@ -183,19 +217,19 @@
             <ul id="da-thumbs" class="da-thumbs">
                 <li>
                     <a href="#">
-                        <img src="<?php bloginfo('template_directory') ?>/images/plats.jpg" alt="...">
+                        <img src="<?php bloginfo('template_directory') ?>/images/plat_4.png" alt="...">
                         <div><span>PLATS</span></div>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="<?php bloginfo('template_directory') ?>/images/plats.jpg" alt="...">
+                        <img src="<?php bloginfo('template_directory') ?>/images/plat_4.png" alt="...">
                         <div><span>PLATS</span></div>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="<?php bloginfo('template_directory') ?>/images/plats.jpg" alt="...">
+                        <img src="<?php bloginfo('template_directory') ?>/images/plat_4.png" alt="...">
                         <div><span>PLATS</span></div>
                     </a>
                 </li>
@@ -203,19 +237,19 @@
             <ul id="da-thumbs" class="da-thumbs">
                 <li>
                     <a href="#">
-                        <img src="<?php bloginfo('template_directory') ?>/images/plats.jpg" alt="...">
+                        <img src="<?php bloginfo('template_directory') ?>/images/plat_4.png" alt="...">
                         <div><span>PLATS</span></div>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="<?php bloginfo('template_directory') ?>/images/plats.jpg" alt="...">
+                        <img src="<?php bloginfo('template_directory') ?>/images/plat_4.png" alt="...">
                         <div><span>PLATS</span></div>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="<?php bloginfo('template_directory') ?>/images/plats.jpg" alt="...">
+                        <img src="<?php bloginfo('template_directory') ?>/images/plat_4.png" alt="...">
                         <div><span>PLATS</span></div>
                     </a>
                 </li>
@@ -224,7 +258,10 @@
     </div>
     <div id="evenements">
         <a name="evenement">
-            <h2>Evenements</h2>
+            <div class="titre">
+                <img src="<?php bloginfo('template_directory') ?>/images/barre.png" alt="..." class="bordure-titre">
+                <h2>Evenements</h2>
+            </div>
         </a>
         <div id="slidorion" class="slidorion">
             <div class="accordion">
@@ -245,8 +282,8 @@
             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingThree">
+                        <div class="panel panel-default event">
+                            <div class="panel-heading title-event" role="tab" id="headingThree">
                                 <h4 class="panel-title">
                                     <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                         Collapsible Group Item #1
@@ -265,8 +302,8 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingTwo">
+                        <div class="panel panel-default event">
+                            <div class="panel-heading title-event" role="tab" id="headingTwo">
                                 <h4 class="panel-title">
                                     <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                         Collapsible Group Item #2
@@ -288,67 +325,50 @@
             </div>
         </div>
     </div>
-    <div id="histoire">
-        <div class="histoire">
-            <a name="histoire">
-                <h2>Qui Sommes-Nous ?</h2>
-            </a>
-            <p class="texte-histoire">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit anim id est laborum. Donec elementum ligula
-                eu sapien consequat eleifend. Donec nec dolor erat, condimentum sagittis sem.
-                Praesent porttitor porttitor risus, dapibus rutrum ipsum gravida et. Integer
-                lectus nisi, facilisis sit amet eleifend nec, pharetra ut augue. Integer quam
-                nunc, consequat nec egestas ac, volutpat ac nisi. Sed consectetur
-            </p>
-         </div>
-    </div>
+    <a name="direction">
+        <div class="titre">
+            <img src="<?php bloginfo('template_directory') ?>/images/barre.png" alt="..." class="bordure-titre">
+            <h2>Direction</h2>
+        </div>
+        <div class="text-direction">
+            <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Ali Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Ali</p>
+        </div>
+    </a>
     <div id="equipe">
-        <h2>Équipe</h2>
-        <div class="row">
-            <div class="col-md-6">
-                <img src="<?php bloginfo('template_directory') ?>/images/corse.jpg" class="img-circle img-responsive"  alt=""/>
-                <h3>Lorem Ipsum</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias amet, consectetur corporis cumque debitis delectus id ipsum iure, maiores minus mollitia non quaerat quod rerum, saepe similique sint velit voluptatem?</p>
-            </div>
-            <div class="col-md-6">
-                <img src="<?php bloginfo('template_directory') ?>/images/corse.jpg" class="img-circle img-responsive" alt=""/>
-                <h3>Lorem Ipsum</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad consequatur ipsum iusto magnam nam, nemo, odit provident quo reiciendis rem similique voluptatum. Delectus excepturi libero nihil non qui ratione sint.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <button class="btn btn-primary">Lorem Ipsum</button></div>
-            <div class="wow bounceInLeft"></div>
-            <div class="col-md-6">
-                <button class="btn btn-primary">Lorem Ipsum</button></div>
-            <div class="wow bounceInRight"></div>
-        </div>
+        <img src="<?php bloginfo('template_directory') ?>/images/Photo_Direction.png" alt="" class="direction"/>
     </div>
-    <div class="instagram">
-        <?php echo do_shortcode('[instagram-feed]');?>
-    </div>
-    <div id="TA_selfserveprop797" class="TA_selfserveprop">
-        <ul id="WbJ9qOGjl" class="TA_links XmHfKhm">
-            <li id="aErxNR7" class="gzrF6r">
-                <a target="_blank" href="https://www.tripadvisor.fr/"><img src="https://www.tripadvisor.fr/img/cdsi/img2/branding/150_logo-11900-2.png" alt="TripAdvisor"/></a>
-            </li>
-        </ul>
+    <a name="contact">
+        <div class="titre">
+            <img src="<?php bloginfo('template_directory') ?>/images/barre.png" alt="..." class="bordure-titre">
+            <h2>Au Gout du Jour</h2>
+        </div>
+    </a>
+    <div class="nous-suivre">
+        <h3>Nous Suivre</h3>
+        <div class="widget">
+            <ul>
+                <li>
+                    <div class="instagram">
+                        <div class="fb-page"
+                             data-href="https://www.facebook.com/pages/Restaurant-Chez-Rose-marie/199288963435931?fref=ts"
+                             data-width="380"
+                             data-hide-cover="false"
+                             data-show-facepile="false"
+                             data-show-posts="false"></div>
+                    </div>
+                </li>
+                <li>
+                    <div id="TA_selfserveprop797" class="TA_selfserveprop">
+                        <ul id="WbJ9qOGjl" class="TA_links XmHfKhm">
+                            <li id="aErxNR7" class="gzrF6r">
+                                <a target="_blank" href="https://www.tripadvisor.fr/"><img src="https://www.tripadvisor.fr/img/cdsi/img2/branding/150_logo-11900-2.png" alt="TripAdvisor"/></a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </div>
     <script src="https://www.jscache.com/wejs?wtype=selfserveprop&amp;uniq=797&amp;locationId=7002100&amp;lang=fr&amp;rating=true&amp;nreviews=4&amp;writereviewlink=false&amp;popIdx=true&amp;iswide=true&amp;border=true&amp;display_version=2"></script>
-    <div id="contact">
-        <a name="contact">
-            <h2>Contact</h2>
-        </a>
-        <?php echo do_shortcode('[wpgmza id="1"]'); ?>
-        <div class="bloc-gauche">
-            <?php echo do_shortcode('[contact-form-7 id="25" title="Formulaire"]'); ?>
-        </div>
-    </div>
 
 <?php get_footer(); ?>

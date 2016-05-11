@@ -16,12 +16,25 @@
     text-align: center;
 }
 
+
+
 @media (min-width: 768px){
     .navbar-nav>li {
         float: none;
         display: inline-block;
     }
 }
+
+.main-text {
+    position: absolute;
+    width: 100%;
+    top: 0%;
+    bottom: 0%;
+    padding-top: 15%;
+    color: #FFF;
+    background: rgba(0, 0, 0, 0.35);
+}
+
 .center {
     text-align: center;
 }
@@ -30,6 +43,8 @@
     -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
     transform: rotate(7deg);
 }
+
+
 
 #menu-item-27{
     -webkit-transition: all 600ms ease;
@@ -73,10 +88,30 @@ a:hover {
 
 h2 {
     text-align: center;
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.bordure-titre {
+    margin-top: 3%;
+}
+
+.titre {
+    text-align: center;
 }
 
 p {
     text-align: center;
+}
+
+.text-direction p {
+    font-size: 16px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: -10px;
 }
 
 ul {
@@ -135,8 +170,19 @@ p.texte-histoire {
     text-align: center;
 }
 
+#cartes a:active {
+    color: #86C5C0;
+}
+
+#cartes a:focus {
+    color: #86C5C0;
+    text-decoration: none;
+}
+
 #cartes ul li {
     display: inline-block;
+    padding-right: 6%;
+    padding-left: 6%;
 }
 
 .da-thumbs {
@@ -149,9 +195,9 @@ p.texte-histoire {
     display: inline-block;
     margin: 5px;
     background: #fff;
-    padding: 8px;
+    padding-right: 0% !important;
+    padding-left: 0% !important;
     position: relative;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 .da-thumbs li a,
 .da-thumbs li a img {
@@ -163,24 +209,44 @@ p.texte-histoire {
 }
 .da-thumbs li a div {
     position: absolute;
-    background: #333;
-    background: rgba(75,75,75,0.7);
+    background: black;
+    opacity: 0.6;
     width: 100%;
     height: 100%;
 }
 .da-thumbs li a div span {
     display: block;
     padding: 10px 0;
-    margin: 40px 20px 20px 20px;
+    margin: 30% 20px 20px 20px;
     text-transform: uppercase;
     font-weight: normal;
     color: rgba(255,255,255,0.9);
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
-    border-bottom: 1px solid rgba(255,255,255,0.5);
-    box-shadow: 0 1px 0 rgba(0,0,0,0.1), 0 -10px 0 rgba(255,255,255,0.3);
+    font-size: 20px;
 }
 
 /* FIN EFFET HOVER CARTES */
+
+/* EVENEMENT */
+
+.event {
+    border-color: transparent;
+}
+
+.title-event {
+    background-color: #fff;
+}
+
+/* FIN EVENEMENT */
+
+/* NOUS_SUIVRE */
+
+.nous-suivre ul li {
+    display: inline-block;
+}
+
+.nous-suivre {
+    text-align: center;
+}
 
 #sb_instagram {
     display: inline-block;
@@ -189,6 +255,20 @@ p.texte-histoire {
 #TA_selfserveprop797 {
     display: inline-block;
 }
+
+#CDSWIDSSP.widSSP {
+    width: 60%!important;
+}
+
+.widget {
+    background-image: url("../../images/Fond_Nous_Suivre.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+/* NOUS SUIVRE */
+
 /* FIN CSS THOMAS*/
 
 
@@ -310,11 +390,18 @@ p.texte-histoire {
 
 /* FENETRE DEROULANTE EQUIPE */
 
-#equipe img{
-    width:80%;
-    margin: 0 10%;
+#equipe {
+    background-image: url("../../images/Direction_Fond.png");
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: 100% 100%;
 }
-#equipe{text-align: center}
+
+.direction {
+    max-width: 100%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
 
 /* FIN CSS ROMAIN */
 
@@ -330,3 +417,27 @@ p.texte-histoire {
 #panel-plats {
     display: none;
 }
+
+/* FOOTER */
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+
+footer h4 {
+    color: #86C5C0;
+}
+
+footer h5 {
+    color: #86C5C0;
+}
+
+#logo-footer li {
+    display: inline-block;
+    padding: 15px;
+}
+
+/* FIN FOOTER */

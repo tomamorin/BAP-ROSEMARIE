@@ -1,5 +1,23 @@
 <footer>
-    <h1>Footer</h1>
+    <h4>Corsicana Furesta - 20230 Linguizzetta - Corse</h4>
+    <h5>06.23.88.66.04</h5>
+    <ul id="logo-footer">
+        <li>
+            <a href="#">
+                <img src="<?php bloginfo('template_directory') ?>/images/facebook.png" alt="...">
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img src="<?php bloginfo('template_directory') ?>/images/instagram.png" alt="...">
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img src="<?php bloginfo('template_directory') ?>/images/tripodvasor_footer.png" alt="...">
+            </a>
+        </li>
+    </ul>
 </footer>
 <script src="<?php bloginfo('template_directory'); ?>/library/js/jquery.min.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/library/js/bootstrap.min.js" ></script>
@@ -30,7 +48,7 @@
                 if ($(this).scrollTop() > 200) {
                     if (state == 0){
                         $('#menu-item-27').css("display","inline-block").fadeIn(2000);
-                        $('#menu-item-27').css("margin","0 18%").fadeIn(2000);
+                        $('#menu-item-27').css("margin","0 1%").fadeIn(2000);
                         //$('.transparent').animate({backgroundColor: "black"});
                         $('.transparent').css("background-color", 'black')
                         console.log("animate")
@@ -61,6 +79,23 @@
             return false;
         });
     });
+</script>
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId      : '566226623547461',
+            xfbml      : true,
+            version    : 'v2.6'
+        });
+    };
+
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
 </script>
 <?php wp_footer(); ?>
 

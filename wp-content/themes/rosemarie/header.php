@@ -5,7 +5,6 @@
     <title>Chez Rose-Marie</title>
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/library/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/library/css/main.css"/>
-
     <?php wp_head(); ?>
 
 </head>
