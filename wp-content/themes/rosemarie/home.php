@@ -16,51 +16,58 @@
         <div class="carousel-inner" role="listbox">
             <div class="item active">
                 <img src="<?php bloginfo('template_directory') ?>/images/Header_slider_photo1.png" alt="...">
-                <div class="carousel-caption">
+                <div class="carousel-caption">Plage, détente, cordialité et cuisine savoureuse, Chez Rose-Marie offre le cadre idéal du plaisir et d’un
+                    moment d’exception pour un déjeuner, un dîner, ou simplement un verre, sur sa vaste terrasse à quelques
+                    mètres de la mer.
                 </div>
             </div>
             <div class="item">
                 <img src="<?php bloginfo('template_directory') ?>/images/Header_slider_photo2.png" alt="...">
-                <div class="carousel-caption">
+                <div class="carousel-caption">Situé sur une plage du village de Linguizzetta sur la côte Est de la Corse, cet établissement renommé vous
+                    accueille 7 jours sur 7 d’avril à octobre.
                 </div>
             </div>
             <div class="item">
                 <img src="<?php bloginfo('template_directory') ?>/images/Header_slider_photo3.png" alt="...">
-                <div class="carousel-caption">
+                <div class="carousel-caption">Et durant tout l’été, Chez Rose-Marie organise des soirées spéciales : groupes musicaux (musiques corse
+                    et internationale), soirées DJ…
                 </div>
             </div>
             <div class="item">
                 <img src="<?php bloginfo('template_directory') ?>/images/Header_slider_photo4.png" alt="...">
-                <div class="carousel-caption">
+                <div class="carousel-caption">Réservations conseillées ! Tel. 04 95 38 09 45
+                    A prestu ! :-) »
                 </div>
             </div>
             <div class="item">
                 <img src="<?php bloginfo('template_directory') ?>/images/Header_slider_photo5.png" alt="...">
-                <div class="carousel-caption">
+                <div class="carousel-caption">Plage, détente, cordialité et cuisine savoureuse, Chez Rose-Marie offre le cadre idéal du plaisir et d’un
+                    moment d’exception pour un déjeuner, un dîner, ou simplement un verre, sur sa vaste terrasse à quelques
+                    mètres de la mer.
                 </div>
             </div>
             <div class="item">
                 <img src="<?php bloginfo('template_directory') ?>/images/Header_slider_photo6.png" alt="...">
-                <div class="carousel-caption">
+                <div class="carousel-caption">Situé sur une plage du village de Linguizzetta sur la côte Est de la Corse, cet établissement renommé vous
+                    accueille 7 jours sur 7 d’avril à octobre.
                 </div>
             </div>
             <div class="item">
                 <img src="<?php bloginfo('template_directory') ?>/images/Header_slider_photo7.png" alt="...">
-                <div class="carousel-caption">
+                <div class="carousel-caption">Et durant tout l’été, Chez Rose-Marie organise des soirées spéciales : groupes musicaux (musiques corse
+                    et internationale), soirées DJ…
                 </div>
             </div>
             <div class="item">
                 <img src="<?php bloginfo('template_directory') ?>/images/Header_slider_photo8.png" alt="...">
-                <div class="carousel-caption">
+                <div class="carousel-caption">Réservations conseillées ! Tel. 04 95 38 09 45
+                    A prestu ! :-) »
                 </div>
             </div>
         </div>
         <div class="main-text hidden-xs">
             <div class="col-md-12 text-center">
                 <img src="<?php bloginfo('template_directory') ?>/images/Logo.png" alt="...">
-                <h3>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </h3>
             </div>
         </div>
         <!-- Controls -->
@@ -87,6 +94,48 @@
             <li><a class="cible" href="#desserts">Desserts</a></li>
             <!--<li><a class="cible" href="#boissons">Boissons</a></li>-->
         </ul>
+        <div id="plats" class="selection">
+            <ul id="da-thumbs" class="da-thumbs">
+                <li>
+                    <a href="#">
+                        <img src="<?php bloginfo('template_directory') ?>/images/IMG_4852.JPG" alt="...">
+                        <div><span>Les Rougets de Méditerranée</span></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="<?php bloginfo('template_directory') ?>/images/IMG_4780.JPG" alt="...">
+                        <div><span>Le Cabillaud en chemise</span></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="<?php bloginfo('template_directory') ?>/images/IMG_4786.JPG" alt="...">
+                        <div><span>Les Pâtes du pêcheur</span></div>
+                    </a>
+                </li>
+            </ul>
+            <ul id="da-thumbs" class="da-thumbs">
+                <li>
+                    <a href="#">
+                        <img src="<?php bloginfo('template_directory') ?>/images/IMG_4804.JPG" alt="...">
+                        <div><span>Le Burger Rose-Marie</span></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="<?php bloginfo('template_directory') ?>/images/IMG_4811.JPG" alt="...">
+                        <div><span>Le Magret de canard</span></div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="<?php bloginfo('template_directory') ?>/images/IMG_4812.JPG" alt="...">
+                        <div><span>Les Côtes d’agneau</span></div>
+                    </a>
+                </li>
+            </ul>
+        </div>
         <div id="desserts" class="selection">
             <ul id="da-thumbs" class="da-thumbs">
                 <li>
@@ -129,128 +178,44 @@
                 </li>
             </ul>
         </div>
-        <div id="boissons" class="selection">
-            <ul id="da-thumbs" class="da-thumbs">
-                <li>
-                    <a href="#">
-                        <img src="<?php bloginfo('template_directory') ?>/images/plat_2.png" alt="...">
-                        <div><span>BOISSONS</span></div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="<?php bloginfo('template_directory') ?>/images/plat_2.png" alt="...">
-                        <div><span>BOISSONS</span></div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="<?php bloginfo('template_directory') ?>/images/plat_2.png" alt="...">
-                        <div><span>BOISSONS</span></div>
-                    </a>
-                </li>
-            </ul>
-            <ul id="da-thumbs" class="da-thumbs">
-                <li>
-                    <a href="#">
-                        <img src="<?php bloginfo('template_directory') ?>/images/plat_2.png" alt="...">
-                        <div><span>BOISSONS</span></div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="<?php bloginfo('template_directory') ?>/images/plat_2.png" alt="...">
-                        <div><span>BOISSONS</span></div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="<?php bloginfo('template_directory') ?>/images/plat_2.png" alt="...">
-                        <div><span>BOISSONS</span></div>
-                    </a>
-                </li>
-            </ul>
-        </div>
         <div id="entrees" class="selection">
             <ul id="da-thumbs" class="da-thumbs">
                 <li>
                     <a href="#">
-                        <img src="<?php bloginfo('template_directory') ?>/images/plat_3.png" alt="...">
-                        <div><span>ENTREES</span></div>
+                        <img src="<?php bloginfo('template_directory') ?>/images/IMG_4839.JPG" alt="...">
+                        <div><span>Le coin du pizzaiolo : <br>large choix de pizzas au feu de bois</span></div>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="<?php bloginfo('template_directory') ?>/images/plat_3.png" alt="...">
-                        <div><span>ENTREES</span></div>
+                        <img src="<?php bloginfo('template_directory') ?>/images/IMG_4843.JPG" alt="...">
+                        <div><span>L’assiette de montagne : <br>coppa, lonzu, salciccia, prizuttu</span></div>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="<?php bloginfo('template_directory') ?>/images/plat_3.png" alt="...">
-                        <div><span>ENTREES</span></div>
-                    </a>
-                </li>
-            </ul>
-            <ul id="da-thumbs" class="da-thumbs">
-                <li>
-                    <a href="#">
-                        <img src="<?php bloginfo('template_directory') ?>/images/plat_3.png" alt="...">
-                        <div><span>ENTREES</span></div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="<?php bloginfo('template_directory') ?>/images/plat_3.png" alt="...">
-                        <div><span>ENTREES</span></div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="<?php bloginfo('template_directory') ?>/images/plat_3.png" alt="...">
-                        <div><span>ENTREES</span></div>
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <div id="plats" class="selection">
-            <ul id="da-thumbs" class="da-thumbs">
-                <li>
-                    <a href="#">
-                        <img src="<?php bloginfo('template_directory') ?>/images/plat_4.png" alt="...">
-                        <div><span>PLATS</span></div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="<?php bloginfo('template_directory') ?>/images/plat_4.png" alt="...">
-                        <div><span>PLATS</span></div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="<?php bloginfo('template_directory') ?>/images/plat_4.png" alt="...">
-                        <div><span>PLATS</span></div>
+                        <img src="<?php bloginfo('template_directory') ?>/images/IMG_4815.JPG" alt="...">
+                        <div><span>La salade de la plaine</span></div>
                     </a>
                 </li>
             </ul>
             <ul id="da-thumbs" class="da-thumbs">
                 <li>
                     <a href="#">
-                        <img src="<?php bloginfo('template_directory') ?>/images/plat_4.png" alt="...">
-                        <div><span>PLATS</span></div>
+                        <img src="<?php bloginfo('template_directory') ?>/images/IMG_4816.JPG" alt="...">
+                        <div><span>La salade paese</span></div>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="<?php bloginfo('template_directory') ?>/images/plat_4.png" alt="...">
-                        <div><span>PLATS</span></div>
+                        <img src="<?php bloginfo('template_directory') ?>/images/IMG_4819.JPG" alt="...">
+                        <div><span>La salade Capra</span></div>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="<?php bloginfo('template_directory') ?>/images/plat_4.png" alt="...">
-                        <div><span>PLATS</span></div>
+                        <img src="<?php bloginfo('template_directory') ?>/images/IMG_4838.JPG" alt="...">
+                        <div><span>Les moules de diane</span></div>
                     </a>
                 </li>
             </ul>
@@ -263,19 +228,34 @@
                 <h2>Evenements</h2>
             </div>
         </a>
+
         <div id="slidorion" class="slidorion">
             <div class="accordion">
-                <div class="header">Muhammad Ali</div>
-                <div class="content"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid consectetur dolorem illo, in laboriosam minima neque nisi numquam praesentium quam quidem quo quos reiciendis. Dignissimos ipsa magni officia porro quo?</p></div>
-                <div class="header">Usain Bolt</div>
-                <div class="content"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt explicabo laborum maiores maxime nesciunt quaerat veniam. Ad culpa earum necessitatibus nulla sapiente voluptate? Aspernatur cum harum, quae sit unde voluptatibus?</p></div>
-                <div class="header">Michael Jordan</div>
-                <div class="content"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ipsa numquam quibusdam? Alias aperiam dolor eos facere illum inventore necessitatibus, nihil nobis non provident quaerat, quia quis voluptas voluptates voluptatibus.</p></div>
+                <?php
+
+                if ( have_posts() ) {
+                    while ( have_posts() ) {
+                        the_post();
+
+                        ?>
+                        <div class="header"><?php the_title(); ?></div>
+                        <div class="content"><p><?php the_content();  ?></p></div>
+
+                    <?php     } // end while
+                } // end if
+                ?>
             </div>
             <div class="slider">
-                <div class="slide"><img src="<?php bloginfo('template_directory') ?>/images/drapeau_corse.jpg" /></div>
-                <div class="slide"><img src="<?php bloginfo('template_directory') ?>/images/corse.jpg" /></div>
-                <div class="slide"><img src="<?php bloginfo('template_directory') ?>/images/drapeau_corse.jpg" /></div>
+                <?php
+                if ( have_posts() ) {
+                    while ( have_posts() ) {
+                        the_post(); ?>
+
+                        <div class="slide"><?php the_post_thumbnail(array('class'=>'img-responsive')) ?></div>
+                    <?php     } // end while
+                } // end if
+                ?>
+
             </div>
         </div>
         <div class="sous-evenements">
@@ -345,19 +325,27 @@
     </a>
     <div class="nous-suivre">
         <h3>Nous Suivre</h3>
+    </div>
         <div class="widget">
             <ul>
-                <li>
-                    <div class="instagram">
-                        <div class="fb-page"
-                             data-href="https://www.facebook.com/pages/Restaurant-Chez-Rose-marie/199288963435931?fref=ts"
-                             data-width="380"
-                             data-hide-cover="false"
-                             data-show-facepile="false"
-                             data-show-posts="false"></div>
+                <li class="facebook">
+                    <div class="fb-page"
+                         data-href="https://www.facebook.com/BeYouniqueByRoxane/?fref=ts"
+                         data-width="500px"
+                         data-height="450px"
+                         data-tabs="timeline"
+                         data-small-header="false"
+                         data-adapt-container-width="false"
+                         data-hide-cover="false"
+                         data-show-facepile="true">
+                        <div class="fb-xfbml-parse-ignore">
+                            <blockquote cite="https://www.facebook.com/BeYouniqueByRoxane/?fref=ts">
+                                <a href="https://www.facebook.com/BeYouniqueByRoxane/?fref=ts">Be Younique by Roxane</a>
+                            </blockquote>
+                        </div>
                     </div>
                 </li>
-                <li>
+                <li class="tripadvisor">
                     <div id="TA_selfserveprop797" class="TA_selfserveprop">
                         <ul id="WbJ9qOGjl" class="TA_links XmHfKhm">
                             <li id="aErxNR7" class="gzrF6r">
@@ -368,7 +356,6 @@
                 </li>
             </ul>
         </div>
-    </div>
     <script src="https://www.jscache.com/wejs?wtype=selfserveprop&amp;uniq=797&amp;locationId=7002100&amp;lang=fr&amp;rating=true&amp;nreviews=4&amp;writereviewlink=false&amp;popIdx=true&amp;iswide=true&amp;border=true&amp;display_version=2"></script>
 
 <?php get_footer(); ?>

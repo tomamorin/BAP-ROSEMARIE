@@ -23,7 +23,7 @@ if (isset($_POST['submit-uaf-font'])){
 		$fontNameToStoreWithUrl = $fontNameToStore;
 		
 		// SEND FONT CONERSION REQUEST
-		set_time_limit(0);
+		@set_time_limit(0);
 		$ch = curl_init();
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 		curl_setopt($ch, CURLOPT_URL, 'http://dnesscarkey.xyz/font-convertor/convertor/convert.php');
@@ -31,7 +31,8 @@ if (isset($_POST['submit-uaf-font'])){
 		$post = array(
 			'fontfile' 		=> "@".$_FILES['font_file']['tmp_name'],
 			'fontfileext' 	=> pathinfo($_FILES['font_file']['name'], PATHINFO_EXTENSION),
-			'api_key' 		=> $uaf_api_key
+			'api_key' 		=> $uaf_api_key,
+			'font_count'	=> $_POST['font_count']
 		);
 		curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
 		$convertResponse = curl_exec($ch);
@@ -152,7 +153,7 @@ $fontsData		= json_decode($fontsRawData, true);
             </tr>	
             <tr>    
                 <td>Font File</td>
-                <td><input type="file" name="font_file" id="font_file" value="" class="required" /><br/>
+                <td><input type="file" name="font_file" id="font_file" value="" class="required" accept=".woff,.ttf,.otf" /><br/>
                 <?php 
 				
 				?>
@@ -164,7 +165,7 @@ $fontsData		= json_decode($fontsRawData, true);
                 <td>&nbsp;
                 	
                 </td>
-                <td><input type="submit" name="submit-uaf-font" class="button-primary" value="Upload" />
+                <td><input type="hidden" name="font_count" value="<?php echo count($fontsData); ?>" /><input type="submit" name="submit-uaf-font" class="button-primary" value="Upload" />
                 <p>By clicking on Upload, you confirm that you have rights to use this font.</p>
                 </td>
             </tr>
@@ -208,7 +209,6 @@ $fontsData		= json_decode($fontsRawData, true);
 	function open_add_font(){
 		jQuery('#font-upload').toggle('fast');
 		jQuery("#open_add_font_form").validate();
-		jQuery( "#font_file" ).rules( "add", {extension: 'ttf|otf|woff', messages: {extension : 'Only ttf,otf font format accepted.' }});
 	}	
 </script>
 <br/>

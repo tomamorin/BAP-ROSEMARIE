@@ -94,7 +94,7 @@ $server_message = get_option('uaf_server_msg');
                 <tr>
                 	<td>
                     	<ol>
-                        	<li>Get API key from <a href="http://dnesscarkey.com/font-convertor/api/" target="_blank">here</a>. You can offer your contribution from (Free to $100) and get the API key. All API key comes with lifetime validity.<br/>
+                        	<li>Get API key from <a href="http://dnesscarkey.com/font-convertor/api/" target="_blank">here</a>. Offer your contribution (Free for 1 font, 10 to $100) and get the API key. All API key comes with lifetime validity.<br/>
                             <em><strong>Note:</strong> API key is needed to connect to our server for font conversion.</em> 
                             </li>
                             
@@ -106,9 +106,9 @@ $server_message = get_option('uaf_server_msg');
                             
                             <li>You can also assign uploaded font directly from Post/Page Wordpress Editor.</li>
                             
-                            <li>If you are fond of visual instructions, you can check it <a href="http://dineshkarki.com.np/use-any-font/instructions" target="_blank">here</a>.</li>
+                            <li>Have any issue related to our plugin ? Please visit <a href="http://dnesscarkey.com/virtual-support/use-any-font.php">Virtual Support</a>. Our virtual support covers around 80% of repeated issue and setup instructions.</li>
                             
-                            <li>You are ready now. If you still have any problem visit our <a href="http://dineshkarki.com.np/forums/forum/use-any-fonts" target="_blank">support forum</a> or you can write to us directly using our contact form.</li>
+                            <li>If you still have any problem visit our <a href="http://dineshkarki.com.np/forums/forum/use-any-fonts" target="_blank">support forum</a> or you can write to us directly using our contact form.</li>
                             
                         </ol>
                     </td>

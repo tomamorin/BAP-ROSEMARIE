@@ -1,6 +1,6 @@
 /* CSS MENU */
 
-#menu-item-27 {
+#menu-item-56 {
     z-index:9999;
     display: none;
 }
@@ -16,7 +16,22 @@
     text-align: center;
 }
 
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background-color: transparent !important;
+}
 
+@media (min-width: 768px) {
+    .navbar {
+        border-radius: 0px;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-nav > li > a {
+        padding-top: 8px;
+        padding-bottom: 10px;
+    }
+}
 
 @media (min-width: 768px){
     .navbar-nav>li {
@@ -32,7 +47,26 @@
     bottom: 0%;
     padding-top: 15%;
     color: #FFF;
+}
+
+.carousel-caption {
+    font-size: 18px;
     background: rgba(0, 0, 0, 0.35);
+    position: absolute;
+    width: 100%;
+    left: auto;
+    right: auto;
+    height: 100%;
+    padding-top: 35%;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-bottom: -20px;
+}
+
+@media (max-width: 768px){
+    .carousel-caption {
+        display: none;
+    }
 }
 
 .center {
@@ -46,7 +80,8 @@
 
 
 
-#menu-item-27{
+
+#menu-item-56 {
     -webkit-transition: all 600ms ease;
     -moz-transition: all 600ms ease;
     -ms-transition: all 600ms ease;
@@ -130,6 +165,10 @@ ul {
     text-align: center;
 }
 
+.carousel-caption {
+    color: #fff;
+}
+
 /* CSS THOMAS */
 
 /* CSS QUI SOMMES-NOUS */
@@ -203,6 +242,8 @@ p.texte-histoire {
 .da-thumbs li a img {
     display: block;
     position: relative;
+    width: 376px;
+    height: 263px;
 }
 .da-thumbs li a {
     overflow: hidden;
@@ -217,8 +258,7 @@ p.texte-histoire {
 .da-thumbs li a div span {
     display: block;
     padding: 10px 0;
-    margin: 30% 20px 20px 20px;
-    text-transform: uppercase;
+    margin: 23% 20px 20px 20px;
     font-weight: normal;
     color: rgba(255,255,255,0.9);
     font-size: 20px;
@@ -240,7 +280,11 @@ p.texte-histoire {
 
 /* NOUS_SUIVRE */
 
-.nous-suivre ul li {
+.widget ul {
+    text-align: center;
+}
+
+.widget ul li {
     display: inline-block;
 }
 
@@ -248,16 +292,15 @@ p.texte-histoire {
     text-align: center;
 }
 
-#sb_instagram {
-    display: inline-block;
+li.facebook {
 }
 
-#TA_selfserveprop797 {
-    display: inline-block;
+li.tripadvisor {
 }
 
-#CDSWIDSSP.widSSP {
-    width: 60%!important;
+#CDSWIDSSP .widSSP {
+    width: 500px;
+    height: 300px !important;
 }
 
 .widget {
@@ -265,6 +308,7 @@ p.texte-histoire {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
+    height: 100%;
 }
 
 /* NOUS SUIVRE */
@@ -441,3 +485,151 @@ footer h5 {
 }
 
 /* FIN FOOTER */
+
+
+/* CONTACT */
+
+#header {
+    background-image: url("../../images/Header.png");
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+}
+
+#header h2.titre-contact {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #fff;
+    height: 10em;
+    line-height: 10em;
+    white-space: nowrap;
+}
+
+.text-contact {
+    font-size: 16px;
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: -10px;
+}
+
+.nord-sud {
+    display: inline-block;
+    text-align: center;
+    max-width: 100%;
+}
+
+.sud-nord {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.bloc {
+    text-align: center;
+}
+
+.bloc-info-contact {
+    display: inline-block;
+    width: 45%;
+    text-align: left;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+h2.info-contact {
+    text-align: left;
+}
+
+p.info-contact {
+    text-align: left;
+    margin-bottom: 5%;
+}
+
+.icone {
+    margin-right: 3%;
+    padding-bottom: 8px;
+}
+
+.logo {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.bloc-form-contact {
+    display: inline-block;
+    width: 45%;
+    text-align: left;
+}
+
+.form-contact input {
+    background-color: #F2F1ED;
+    border: none;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color:  #B6B5B0;
+    width: 100%;
+}
+
+::-webkit-input-placeholder {
+    color: #A8A7A3 !important;
+}
+:-moz-placeholder {
+    color: #A8A7A3 !important;
+}
+::-moz-placeholder {
+    color: #A8A7A3 !important;
+}
+:-ms-input-placeholder {
+    color: #A8A7A3 !important;
+}
+
+.form-contact textarea {
+    background-color: #F2F1ED;
+    border: none;
+    color: 	#B6B5B0;
+    width: 100%;
+    padding: 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    height: 300px;
+}
+
+.send {
+    width: 60%;
+    color: black;
+    background-color: #8BC8C1;
+    border: none;
+    margin-left: 22%;
+    margin-right: auto;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .bloc-info-contact {
+        display: block;
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+    h2.info-contact, p.info-contact {
+        text-align: center;
+    }
+    .send {
+        margin-left: 4%;
+    }
+    .bloc-form-contact {
+        display: block;
+        text-align: center;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+}
+/* FIN CONTACT */

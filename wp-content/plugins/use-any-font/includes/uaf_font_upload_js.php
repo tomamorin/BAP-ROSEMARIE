@@ -120,7 +120,7 @@ $fontsData		= json_decode($fontsRawData, true);
             </tr>	
             <tr>    
                 <td>Font File</td>
-                <td><input type="file" id="fontfile" name="fontfile" value="" class="required" /><br/>
+                <td><input type="file" id="fontfile" name="fontfile" value="" class="required" accept=".woff,.ttf,.otf" /><br/>
                 <?php 
 				
 				?>
@@ -134,6 +134,7 @@ $fontsData		= json_decode($fontsRawData, true);
                 </td>
                 <td>
                 <input type="hidden" name="api_key" value="<?php echo $uaf_api_key; ?>" />
+                <input type="hidden" name="font_count" value="<?php echo count($fontsData); ?>" />
                 <input type="hidden" name="convert_response" id="convert_response" value="" />
                 <input type="submit" name="submit-uaf-font" id="submit-uaf-font" class="button-primary" value="Upload" />
                 <div id="font_upload_message" class=""></div>
@@ -179,8 +180,7 @@ $fontsData		= json_decode($fontsRawData, true);
 <script>
 	function open_add_font(){
 		jQuery('#font-upload').toggle('fast');
-		jQuery("#open_add_font_form").validate();
-		jQuery( "#fontfile" ).rules( "add", {extension: 'ttf|otf|woff', messages: {extension : 'Only ttf,otf,woff font format accepted.' }});
+		jQuery("#open_add_font_form").validate();		
 	}	
 </script>
 <br/>
@@ -216,6 +216,7 @@ jQuery('#open_add_font_form')
 			if (status == 'error'){
 				jQuery('#font_upload_message').attr('class',status);
 				jQuery('#font_upload_message').html(msg);
+				e.preventDefault();
 			} else {
 				woffStatus = dataReturn.woff.status;
 				eotStatus = dataReturn.eot.status;

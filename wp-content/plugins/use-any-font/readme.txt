@@ -2,8 +2,8 @@
 Contributors: dnesscarkey
 Tags: use any font, any font, embed any font, font embed, font uploader, css3 font embed, @font-face embed, font conversion, webfont, ttf, opentype, custom fonts
 Requires at least: 3.0
-Tested up to: 4.5
-Stable tag: 4.4.4
+Tested up to: 4.5.2
+Stable tag: 4.5.1
 
 Embed any font in your website
 
@@ -12,7 +12,7 @@ Use any font you wish and give your site a elegant look. No css knowledge requir
 
 Click <a href="http://dineshkarki.com.np/use-any-font/demo" target="_blank">here</a> for Use Any Font working demo.
 
-Use Any Font gives you freedom to use any font in your website. It is not like other font embed services which gives you countable number of fonts to select from neither the one that stores your font in remote server. You can use any font if you have its font format (ttf,otf) without being dependent to other's server uptime.
+Use Any Font gives you freedom to use any font in your website. It is not like other font embed services which gives you countable number of fonts to select from neither the one that stores your font in remote server. You can use any font if you have its font format (ttf,otf,woff) without being dependent to other's server uptime.
 
 Features
 
@@ -108,6 +108,12 @@ You can check our <a href="http://dineshkarki.com.np/forums/forum/use-any-fonts"
 1. Screenshot #5. Disable font list in editor.
 
 == Changelog ==
+
+= 4.5.1 =
+* Fixed form validation js error.
+
+= 4.5 =
+* Fixed SSL font loading issue.
 
 = 4.4.4 =
 * Font upload issue fixed.
